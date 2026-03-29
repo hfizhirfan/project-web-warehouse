@@ -1,0 +1,23 @@
+// https://nuxt.com/docs/api/configuration/nuxt-config
+export default defineNuxtConfig({
+  compatibilityDate: '2025-07-15',
+  devtools: { enabled: true },
+
+  modules: [
+    '@nuxtjs/tailwindcss'
+  ],
+
+  app: {
+    layoutTransition: { name: 'layout', mode: 'out-in' },
+
+    // ✅ TAMBAHKAN DI SINI
+    head: {
+      link: [
+        {
+          rel: 'stylesheet',
+          href: 'https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined'
+        }
+      ]
+    }
+  }
+})
