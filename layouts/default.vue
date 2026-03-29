@@ -6,7 +6,7 @@
     <aside :class="['fixed md:relative z-30 w-64 h-full bg-[#1e1e2d] text-white flex flex-col transition-transform duration-300 ease-in-out shadow-2xl md:shadow-xl', isSidebarOpen ? 'translate-x-0' : '-translate-x-full md:translate-x-0']">
       <div class="h-16 px-6 border-b border-gray-800 flex justify-between items-center">
         <div>
-          <h2 class="text-2xl font-bold text-blue-500 tracking-wide">WMS <span class="text-white">3PL</span></h2>
+          <h2 class="text-2xl font-bold text-blue-500 tracking-wide">LOGO</h2>
         </div>
         <button @click="isSidebarOpen = false" class="md:hidden text-gray-400 hover:text-white bg-gray-800 p-1.5 rounded-lg">
           <span class="material-symbols-outlined text-xl">close</span>
