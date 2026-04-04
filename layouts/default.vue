@@ -27,6 +27,20 @@
           <span class="material-symbols-outlined mr-3 text-lg group-hover:text-blue-500 transition-colors">qr_code_scanner</span> 
           <span class="text-sm">Outbound Scanner</span>
         </NuxtLink>
+
+        <div class="my-4 border-t border-gray-800/50"></div>
+        <p class="px-2 text-xs font-semibold text-gray-500 uppercase tracking-wider mb-2">Pengaturan</p>
+
+        <NuxtLink to="/master-data" @click="isSidebarOpen = false" class="flex items-center px-3 py-3 md:py-2.5 text-gray-400 hover:bg-gray-800/50 hover:text-white rounded-lg transition-colors group" active-class="bg-blue-600/10 text-blue-500 font-semibold">
+          <span class="material-symbols-outlined mr-3 text-lg group-hover:text-blue-500 transition-colors">database</span> 
+          <span class="text-sm">Master Data</span>
+        </NuxtLink>
+
+        <a href="#" class="flex items-center px-3 py-3 md:py-2.5 text-gray-500 hover:bg-gray-800/20 hover:text-gray-400 rounded-lg transition-colors cursor-not-allowed group" title="Dalam tahap pengembangan backend">
+          <span class="material-symbols-outlined mr-3 text-lg">monitoring</span> 
+          <span class="text-sm">Laporan & Analitik</span>
+        </a>
+        
       </nav>
     </aside>
 
