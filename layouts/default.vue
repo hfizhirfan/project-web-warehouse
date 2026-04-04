@@ -29,6 +29,22 @@
         </NuxtLink>
 
         <div class="my-4 border-t border-gray-800/50"></div>
+        <p class="px-2 text-xs font-semibold text-gray-500 uppercase tracking-wider mb-2">Operasional Lanjutan</p>
+        
+        <NuxtLink to="/konversi" @click="isSidebarOpen = false" class="flex items-center px-3 py-3 md:py-2.5 text-gray-400 hover:bg-gray-800/50 hover:text-white rounded-lg transition-colors group" active-class="bg-blue-600/10 text-blue-500 font-semibold">
+          <span class="material-symbols-outlined mr-3 text-lg group-hover:text-blue-500 transition-colors">layers</span> 
+          <span class="text-sm">Rakitan / Bundling</span>
+        </NuxtLink>
+        <NuxtLink to="/retur" @click="isSidebarOpen = false" class="flex items-center px-3 py-3 md:py-2.5 text-gray-400 hover:bg-gray-800/50 hover:text-white rounded-lg transition-colors group" active-class="bg-blue-600/10 text-blue-500 font-semibold">
+          <span class="material-symbols-outlined mr-3 text-lg group-hover:text-blue-500 transition-colors">assignment_return</span> 
+          <span class="text-sm">Retur & Batal</span>
+        </NuxtLink>
+        <NuxtLink to="/opname" @click="isSidebarOpen = false" class="flex items-center px-3 py-3 md:py-2.5 text-gray-400 hover:bg-gray-800/50 hover:text-white rounded-lg transition-colors group" active-class="bg-blue-600/10 text-blue-500 font-semibold">
+          <span class="material-symbols-outlined mr-3 text-lg group-hover:text-blue-500 transition-colors">fact_check</span> 
+          <span class="text-sm">Stock Opname</span>
+        </NuxtLink>
+
+        <div class="my-4 border-t border-gray-800/50"></div>
         <p class="px-2 text-xs font-semibold text-gray-500 uppercase tracking-wider mb-2">Pengaturan</p>
 
         <NuxtLink to="/master-data" @click="isSidebarOpen = false" class="flex items-center px-3 py-3 md:py-2.5 text-gray-400 hover:bg-gray-800/50 hover:text-white rounded-lg transition-colors group" active-class="bg-blue-600/10 text-blue-500 font-semibold">
